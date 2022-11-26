@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+
+
+	<test name="Test1">
+		<parameter name="browser" value="firefox" />
+		<parameter name="version" value="102.0" />
+		<parameter name="platform" value="WIN8" />
+		<classes>
+			<class name="simpleFormDemo.SimpleFormDemoclass" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="103.0" />
+		<parameter name="platform" value="WIN8" />
+		<classes>
+			<class name="simpleFormDemo.SimpleFormDemoclass" />
+		</classes>
+	</test>
+
+
+	<test name="Test3">
+		<parameter name="browser" value="firefox" />
+		<parameter name="version" value="102.0" />
+		<parameter name="platform" value="WIN8" />
+		<classes>
+			<class name="inputFormSubmit.InputFormSubmitClass" />
+		</classes>
+	</test>
+
+
+	<test name="Test4">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="103.0" />
+		<parameter name="platform" value="WIN8" />
+		<classes>
+			<class name="inputFormSubmit.InputFormSubmitClass" />
+		</classes>
+	</test>
+
+
+	<test name="Test5">
+		<parameter name="browser" value="firefox" />
+		<parameter name="version" value="62.0" />
+		<parameter name="platform" value="WIN8" />
+		<classes>
+			<class name="dragAndDropSliders.DragAndDropSlidersClass" />
+		</classes>
+	</test>
+
+	<test name="Test6">
+		<parameter name="version" value="79.0" />
+		<parameter name="platform" value="WIN10" />
+		<classes>
+			<class name="dragAndDropSliders.DragAndDropSlidersClass" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
+

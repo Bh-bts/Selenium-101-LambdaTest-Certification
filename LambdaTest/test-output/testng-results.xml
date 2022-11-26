@@ -1,0 +1,77 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T15:33:46 IST" name="Default suite" finished-at="2022-07-13T15:34:10 IST" duration-ms="24440">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T15:33:46 IST" name="Default test" finished-at="2022-07-13T15:34:10 IST" duration-ms="24440">
+      <class name="inputFormSubmit.InputFormSubmitClass">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:inputFormSubmit.InputFormSubmitClass@28eaa59a]" started-at="2022-07-13T15:33:46 IST" name="setup" finished-at="2022-07-13T15:33:52 IST" duration-ms="5705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void inputFormSubmit.InputFormSubmitClass.TestScenario3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@49293b43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestScenario3()[pri:0, instance:inputFormSubmit.InputFormSubmitClass@28eaa59a]" started-at="2022-07-13T15:33:52 IST" name="TestScenario3" finished-at="2022-07-13T15:34:09 IST" duration-ms="17023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:inputFormSubmit.InputFormSubmitClass@28eaa59a]" started-at="2022-07-13T15:34:09 IST" name="tearDown" finished-at="2022-07-13T15:34:10 IST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- inputFormSubmit.InputFormSubmitClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T15:33:46 IST" name="Default suite" finished-at="2022-07-13T15:34:10 IST" duration-ms="24440">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T15:33:46 IST" name="Default test" finished-at="2022-07-13T15:34:10 IST" duration-ms="24440">
+      <class name="inputFormSubmit.InputFormSubmitClass">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:inputFormSubmit.InputFormSubmitClass@28eaa59a]" started-at="2022-07-13T15:33:46 IST" name="setup" finished-at="2022-07-13T15:33:52 IST" duration-ms="5705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void inputFormSubmit.InputFormSubmitClass.TestScenario3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@49293b43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestScenario3()[pri:0, instance:inputFormSubmit.InputFormSubmitClass@28eaa59a]" started-at="2022-07-13T15:33:52 IST" name="TestScenario3" finished-at="2022-07-13T15:34:09 IST" duration-ms="17023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:inputFormSubmit.InputFormSubmitClass@28eaa59a]" started-at="2022-07-13T15:34:09 IST" name="tearDown" finished-at="2022-07-13T15:34:10 IST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- inputFormSubmit.InputFormSubmitClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
+>>>>>>> bfbe4ab (a)
